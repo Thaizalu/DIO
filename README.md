@@ -94,3 +94,10 @@ O modelo conceitual do sistema está estruturado com as seguintes entidades e re
   - Tipo de Pagamento
   - Detalhes do Pagamento
   - Pedido (Relacionamento N:1 com Pedido)
+ 
+## Modelo ER (Diagrama Conceitual)
+
+![Diagrama ER](projeto1dio.png)
+
+**Descrição:** Este diagrama visualiza as relações entre as entidades do sistema de E-Commerce, facilitando a compreensão e implementação no DBeaver.
+
