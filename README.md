@@ -8,7 +8,7 @@ Participar do **Bootcamp da Digital Innovation One (DIO)** foi uma experiência 
 
 Durante o bootcamp, desenvolvi diversos projetos que demonstram minha capacidade de aplicar conceitos aprendidos em situações reais. Abaixo, apresento três dos principais projetos que concluí:
 
-### 1. [Projeto Conceitual de Banco de Dados – E-Commerce](./e-commerce-db/README.md)
+### 1. [Projeto Conceitual de Banco de Dados – E-Commerce](./projeto1/README.md)
 
 **Descrição:**  
 Desenvolvi um esquema conceitual para um sistema de E-Commerce, abrangendo a gestão de clientes (Pessoa Física e Jurídica), múltiplas formas de pagamento e um sistema de entregas eficiente com rastreamento. O projeto foi modelado para garantir a integridade e a escalabilidade dos dados, facilitando futuras expansões e manutenções.
@@ -20,7 +20,7 @@ Desenvolvi um esquema conceitual para um sistema de E-Commerce, abrangendo a ges
 
 ---
 
-### 2. [Projeto Conceitual de Banco de Dados – Oficina Mecânica](./oficina-mecanica/README.md)
+### 2. [Projeto Conceitual de Banco de Dados – Oficina Mecânica](./projeto2/README.md)
 
 **Descrição:**  
 Este projeto focou na criação de um sistema de controle e gerenciamento de ordens de serviço em uma oficina mecânica. Abrangeu o cadastro de clientes, veículos, mecânicos, equipes, ordens de serviço, serviços e peças, além de relacionamentos complexos para otimizar o fluxo de trabalho e garantir a eficiência operacional.
@@ -32,7 +32,7 @@ Este projeto focou na criação de um sistema de controle e gerenciamento de ord
 
 ---
 
-### 3. [Criando um Dashboard de Vendas do Xbox com Excel](./dashboard-vendas-xbox/README.md)
+### 3. [Criando um Dashboard de Vendas do Xbox com Excel](./projeto3/README.md)
 
 **Descrição:**  
 Desenvolvi um dashboard interativo no Excel para monitorar as vendas de diferentes assinaturas do Xbox, incluindo EA Play Season Pass, Minecraft Season Pass e Xbox Game Pass. O dashboard transforma dados brutos em visualizações claras, permitindo uma análise eficaz do desempenho de vendas e apoiando a tomada de decisões estratégicas.
@@ -48,9 +48,9 @@ Desenvolvi um dashboard interativo no Excel para monitorar as vendas de diferent
 
 Cada projeto possui seu próprio repositório com documentação detalhada e arquivos necessários. Abaixo estão os links para acessar os README de cada projeto:
 
-- [Projeto Conceitual de Banco de Dados – E-Commerce](./e-commerce-db/README.md)
-- [Projeto Conceitual de Banco de Dados – Oficina Mecânica](./oficina-mecanica/README.md)
-- [Criando um Dashboard de Vendas do Xbox com Excel](./dashboard-vendas-xbox/README.md)
+- [Projeto Conceitual de Banco de Dados – E-Commerce](./projeto1/README.md)
+- [Projeto Conceitual de Banco de Dados – Oficina Mecânica](./projeto2/README.md)
+- [Criando um Dashboard de Vendas do Xbox com Excel](./projeto3/README.md)
 
 ## Conclusão
 
