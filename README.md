@@ -1,103 +1,72 @@
-# Projeto Conceitual de Banco de Dados – E-COMMERCE
+# Meus Projetos no Bootcamp DIO
 
-## Descrição do Projeto
+## Sobre o Bootcamp
 
-Este projeto visa desenvolver um **Banco de Dados para E-Commerce**, focado na gestão eficiente de clientes, pagamentos e entregas. O esquema conceitual foi refinado para atender a requisitos específicos que garantem a integridade dos dados e a flexibilidade nas operações comerciais.
+Participar do **Bootcamp da Digital Innovation One (DIO)** foi uma experiência transformadora que ampliou meus conhecimentos e habilidades em diversas áreas de tecnologia. O programa intensivo ofereceu conteúdos práticos e teóricos essenciais para o desenvolvimento de projetos reais, preparando-me para enfrentar os desafios do mercado de trabalho com confiança e competência.
 
-## Objetivos
+## Projetos Realizados
 
-- **Gestão de Clientes (Pessoa Física e Jurídica)**: Permitir que cada conta no sistema seja associada exclusivamente a uma **Pessoa Física (PF)** ou a uma **Pessoa Jurídica (PJ)**, evitando a mistura de informações entre os dois tipos de cliente.
-- **Gestão de Pagamentos**: Possibilitar que cada cliente cadastre múltiplas formas de pagamento, proporcionando maior flexibilidade nas transações.
-- **Gestão de Entregas**: Implementar um sistema de acompanhamento de entregas com status atualizados e códigos de rastreamento únicos.
+Durante o bootcamp, desenvolvi diversos projetos que demonstram minha capacidade de aplicar conceitos aprendidos em situações reais. Abaixo, apresento três dos principais projetos que concluí:
 
-## Funcionalidades Principais
+### 1. [Projeto Conceitual de Banco de Dados – E-Commerce](./e-commerce-db/README.md)
 
-### 1. Gestão de Clientes (PF e PJ)
+**Descrição:**  
+Desenvolvi um esquema conceitual para um sistema de E-Commerce, abrangendo a gestão de clientes (Pessoa Física e Jurídica), múltiplas formas de pagamento e um sistema de entregas eficiente com rastreamento. O projeto foi modelado para garantir a integridade e a escalabilidade dos dados, facilitando futuras expansões e manutenções.
 
-- **Conta Exclusiva**: Cada conta no sistema deve estar vinculada exclusivamente a uma **Pessoa Física (PF)** ou a uma **Pessoa Jurídica (PJ)**.
-  
-  **Informações da Pessoa Física (PF):**
-  - Nome Completo
-  - CPF
-  - Endereço Residencial
-  - Contato (Telefone e Email)
+**Tecnologias Utilizadas:**
+- **Banco de Dados:** PostgreSQL
+- **Modelagem de Dados:** DBeaver
+- **Controle de Versão:** Git e GitHub
 
-  **Informações da Pessoa Jurídica (PJ):**
-  - Razão Social
-  - CNPJ
-  - Endereço Comercial
-  - Contato (Telefone e Email)
+---
 
-### 2. Gestão de Pagamentos
+### 2. [Projeto Conceitual de Banco de Dados – Oficina Mecânica](./oficina-mecanica/README.md)
 
-- **Múltiplas Formas de Pagamento**: Cada cliente pode cadastrar diversas formas de pagamento, como:
-  - Cartão de Crédito
-  - Boleto Bancário
-  - Transferência Bancária
-  - PayPal
-  - Carteiras Digitais (ex.: Apple Pay, Google Pay)
+**Descrição:**  
+Este projeto focou na criação de um sistema de controle e gerenciamento de ordens de serviço em uma oficina mecânica. Abrangeu o cadastro de clientes, veículos, mecânicos, equipes, ordens de serviço, serviços e peças, além de relacionamentos complexos para otimizar o fluxo de trabalho e garantir a eficiência operacional.
 
-- **Detalhes do Pagamento:**
-  - Tipo de Pagamento
-  - Número da Conta ou Cartão
-  - Data de Validade (quando aplicável)
-  - Nome do Titular
-  - Preferência de Pagamento
+**Tecnologias Utilizadas:**
+- **Banco de Dados:** SQLite
+- **Ferramenta de Modelagem:** DBeaver
+- **Controle de Versão:** Git e GitHub
 
-### 3. Gestão de Entregas
+---
 
-- **Status da Entrega**: Cada entrega possui um status que reflete sua atual etapa no processo logístico. Os status incluem:
-  - Pendente
-  - Processando
-  - Em Transporte
-  - Entregue
-  - Cancelada
+### 3. [Criando um Dashboard de Vendas do Xbox com Excel](./dashboard-vendas-xbox/README.md)
 
-- **Código de Rastreamento**: Cada entrega é associada a um código de rastreamento único, permitindo que o cliente acompanhe o progresso da entrega em tempo real.
+**Descrição:**  
+Desenvolvi um dashboard interativo no Excel para monitorar as vendas de diferentes assinaturas do Xbox, incluindo EA Play Season Pass, Minecraft Season Pass e Xbox Game Pass. O dashboard transforma dados brutos em visualizações claras, permitindo uma análise eficaz do desempenho de vendas e apoiando a tomada de decisões estratégicas.
 
-## Modelo Conceitual
+**Tecnologias Utilizadas:**
+- **Microsoft Excel:** Organização de dados, criação de tabelas dinâmicas e gráficos.
+- **Power Query e Power Pivot:** Importação, limpeza e modelagem de dados.
+- **Gráficos e Tabelas Dinâmicas:** Visualizações interativas para análise de dados.
 
-O modelo conceitual do sistema está estruturado com as seguintes entidades e relacionamentos:
+---
 
-- **Cliente**
-  - **Conta** (Associação Exclusiva com PF ou PJ)
-    - **Pessoa Física (PF)**
-    - **Pessoa Jurídica (PJ)**
-  - **Formas de Pagamento** (Relacionamento 1:N com Conta)
-    - Tipo de Pagamento
-    - Detalhes do Pagamento
+## Como Acessar os Projetos
 
-- **Produto**
-  - ID do Produto
-  - Nome
-  - Descrição
-  - Preço
-  - Estoque
+Cada projeto possui seu próprio repositório com documentação detalhada e arquivos necessários. Abaixo estão os links para acessar os README de cada projeto:
 
-- **Pedido**
-  - ID do Pedido
-  - Data do Pedido
-  - Status do Pedido
-  - Cliente (Relacionamento N:1 com Conta)
-  - Itens do Pedido (Relacionamento 1:N com Itens)
-  - Pagamento (Relacionamento 1:N com Formas de Pagamento)
-  - Entrega (Relacionamento 1:1 com Entrega)
+- [Projeto Conceitual de Banco de Dados – E-Commerce](./e-commerce-db/README.md)
+- [Projeto Conceitual de Banco de Dados – Oficina Mecânica](./oficina-mecanica/README.md)
+- [Criando um Dashboard de Vendas do Xbox com Excel](./dashboard-vendas-xbox/README.md)
 
-- **Entrega**
-  - ID da Entrega
-  - Status da Entrega
-  - Código de Rastreamento
-  - Endereço de Entrega
+## Conclusão
 
-- **Pagamento**
-  - ID do Pagamento
-  - Tipo de Pagamento
-  - Detalhes do Pagamento
-  - Pedido (Relacionamento N:1 com Pedido)
+Participar do Bootcamp DIO foi fundamental para meu crescimento profissional, proporcionando conhecimentos práticos e a oportunidade de desenvolver projetos relevantes no mercado. Estou entusiasmado para aplicar essas habilidades em futuras oportunidades e continuar minha jornada no mundo da tecnologia.
+
+---
+
+**Autor:** Thaiza Ludmila Bueno da Silva  
+**Contato:** thaizalu@gmail.com
+
+## Licença
+
+Este repositório está licenciado sob a licença MIT. Consulte o arquivo [LICENSE](./LICENSE) para mais detalhes.
+
+## Agradecimentos
+
+Agradeço à [Digital Innovation One](https://dio.me/) pelo suporte no desenvolvimento deste bootcamp e aos colegas e mentores que contribuíram para a realização destes projetos.
+```
  
-## Modelo ER (Diagrama Conceitual)
-
-![Diagrama ER](projeto1dio.png)
-
-**Descrição:** Este diagrama visualiza as relações entre as entidades do sistema de E-Commerce, facilitando a compreensão e implementação no DBeaver.
-
