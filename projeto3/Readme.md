@@ -52,4 +52,4 @@ Os dados utilizados neste projeto representam as assinaturas dos diferentes pass
 
 ## Acesso ao dataframe e dashboard original
 
-[✅ Download o Dashboard em Excel](Criando%20um%20Dashboard%20de%20Vendas%20do%20Xbox%20com%20Excel/Dados.xlsx)
+[✅ Download o Dashboard em Excel](projeto3/Dados.xlsx)
