@@ -45,3 +45,11 @@ Os dados utilizados neste projeto representam as assinaturas dos diferentes pass
 - **Power Query:** Ferramenta do Excel utilizada para a importação e limpeza dos dados.
 - **Power Pivot:** Utilizado para modelagem de dados e criação de relações entre tabelas.
 - **Gráficos e Tabelas Dinâmicas:** Para a visualização interativa e dinâmica dos dados.
+
+## Visualização do Dashboard
+
+![Dashboard](../imagens/projeto3dio.png)
+
+## Acesso ao dataframe e dashboard original
+
+[✅ Download o Dashboard em Excel](Criando%20um%20Dashboard%20de%20Vendas%20do%20Xbox%20com%20Excel/Dados.xlsx)
