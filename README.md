@@ -1,8 +1,10 @@
-# Meus Projetos no Bootcamp DIO
+# Meus Projetos no Bootcamp DIO - Heineken - Inteligência Artificial Aplicada a Dados com Copilot
 
 ## Sobre o Bootcamp
 
 Participar do **Bootcamp da Digital Innovation One (DIO)** foi uma experiência transformadora que ampliou meus conhecimentos e habilidades em diversas áreas de tecnologia. O programa intensivo ofereceu conteúdos práticos e teóricos essenciais para o desenvolvimento de projetos reais, preparando-me para enfrentar os desafios do mercado de trabalho com confiança e competência.
+
+Nesse bootcamp, descubri o potencial da inteligência artificial aplicada aos dados e aprendi a transformar informações brutas em decisões estratégicas! Desde conceitos fundamentais até estratégias avançadas, dominei a criação de consultas SQL eficientes, a automação de análises com o Microsoft Copilot e a transformação de grandes volumes de dados em insights estratégicos usando processos de ETL.
 
 ## Projetos Realizados
 
